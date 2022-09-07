@@ -1,0 +1,48 @@
+@media screen and (min-width: 1200px) {
+  body {
+  }
+
+  main {
+    width: 111rem;
+    height: 44.7rem;
+    display: grid;
+    grid-template-areas: "card1 card2";
+  }
+
+  section {
+    grid-area: card1;
+    text-align: left;
+    padding: 7.2rem 11rem 0 7.2rem;
+  }
+
+  h1,
+  span {
+    font-size: 3.5rem;
+    line-height: 4.4rem;
+  }
+
+  p {
+    padding-top: 2.5rem;
+  }
+
+  .numbers {
+    flex-direction: row;
+    margin-top: 7.2rem;
+    gap: 5rem;
+  }
+
+  figure {
+    grid-area: card2;
+    width: 54rem;
+  }
+
+  img {
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  picture::before {
+    border-radius: 0 1rem 1rem 0;
+    height: 44.7rem;
+  }
+}
